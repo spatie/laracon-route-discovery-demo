@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "04bc70b9a462212bad4e1c2186ad6191",
+    "content-hash": "0b8db0bdc196eeb89c62acc96a492a28",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2788,6 +2788,71 @@
                 }
             ],
             "time": "2021-09-25T23:10:38+00:00"
+        },
+        {
+            "name": "spatie/laravel-artisan-dd",
+            "version": "2.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-artisan-dd.git",
+                "reference": "9435206940027a5b2269e26235f9e810da476c44"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-artisan-dd/zipball/9435206940027a5b2269e26235f9e810da476c44",
+                "reference": "9435206940027a5b2269e26235f9e810da476c44",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^7.30|^8.73|^9.0",
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^5.20|^6.23|^7.0",
+                "phpunit/phpunit": "^9.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\ArtisanDd\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Run dd from your commandline",
+            "homepage": "https://github.com/spatie/laravel-artisan-dd",
+            "keywords": [
+                "artisan",
+                "debug",
+                "develop",
+                "laravel-artisan-dd",
+                "spatie"
+            ],
+            "support": {
+                "issues": "https://github.com/spatie/laravel-artisan-dd/issues",
+                "source": "https://github.com/spatie/laravel-artisan-dd/tree/2.3.3"
+            },
+            "funding": [
+                {
+                    "url": "https://spatie.be/open-source/support-us",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/spatie",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-01-19T12:58:04+00:00"
         },
         {
             "name": "spatie/laravel-package-tools",

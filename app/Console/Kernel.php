@@ -18,6 +18,10 @@ class Kernel extends ConsoleKernel
         // $schedule->command('inspire')->hourly();
     }
 
+    protected $commands = [
+        \Spatie\ArtisanDd\DdCommand::class,
+    ];
+
     /**
      * Register the commands for the application.
      *
